@@ -13,7 +13,7 @@ makedepends=('python' 'fontforge')
 _mirror="jaist"
 conflicts=('ttf-mplus')
 source=(http://${_mirror}.dl.osdn.jp/mplus-fonts/62344/mplus-${_pkgver}.tar.xz
-		keep-only-latin.py)
+		    remove-cjk.py)
 sha256sums=('149a5c97c35624d79ffb3cbbdd56559319085229acaf72b49b56adc5ede0979c'
             'dbf1c515940d47781a599f73e00ed518bcc50ae75a9482cd708bd194cbaecb79')
 
